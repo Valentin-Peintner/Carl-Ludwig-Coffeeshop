@@ -1,0 +1,204 @@
+/* Gesamte Div */
+#coffee{
+   display:flex;
+   flex-wrap: nowrap;
+   justify-content:space-evenly;
+   margin:2rem 0rem 7rem 0;
+}
+
+/* Einzelnen Produkte */
+.package-single {
+    text-align:center;
+}
+
+.package-single h2{
+    font-family: 'Julius Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+.package-single h4{
+    font-family: 'Julius Sans Pro',sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.description-coffee {
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.5rem;
+}
+
+.amount{
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.price {
+    text-align: center;
+    font-family: 'Julius Sans Pro',sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Hover Effect Bilder */
+.package-single img {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.package-single img:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* Media Queries */
+@media screen and (max-width:1200px) {
+    .package-single img {
+        height: 250px;
+    }
+
+    .package-single h2{
+        font-size: 20px;
+    }
+
+    .package-single h4{
+        font-size: 16px;   
+    }
+
+    .package-single p{
+        font-size: 14px;
+    }
+
+    .package-single .price{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .package-single img {
+        height: 230px;
+    }
+
+    .package-single h2{
+        font-size: 19px;
+    }
+
+    .package-single h4{
+        font-size: 15px;   
+    }
+
+    .package-single p{
+        font-size: 13px;
+    }
+
+    .package-single .price{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    #coffee{
+        display: block;
+    }
+
+    .package-single {
+        margin: 2rem 0;
+    }
+
+    .package-single  img {
+        width: auto;
+        height: 250px;
+    }
+
+    #coffee .package-single  h2{
+        font-size: 20px;
+    }
+
+    #coffee .package-single  h4{
+        font-size: 16px;   
+    }
+
+    #coffee .package-single  p{
+        font-size: 14px;
+    }
+
+    #coffee .package-single  .price{
+        font-size: 20px;
+    }   
+}
+
+@media  screen and (max-width: 480px) {
+
+    #coffee{
+        display: block;
+    }
+
+    #coffee .package-single {
+        margin: 2rem 0;
+    }
+    #coffee .package-single  img {
+        width: auto;
+        height: 220px;
+    }
+
+    #coffee .package-single  h2{
+        font-size: 20px;
+    }
+    #coffee .package-single  h4{
+        font-size: 16px;   
+    }
+
+    #coffee .package-single  p{
+        font-size: 14px;
+    }
+
+    #coffee .package-single  .price{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    #coffee{
+        display: block;
+    }
+
+    .package-single {
+        margin: 2rem 0;
+    }
+
+    #coffee .package-single  img {
+        width: auto;
+        height: 200px;
+    }
+
+    #coffee .package-single  h2{
+        font-size: 18px;
+    }
+
+    #coffee .package-single  h4{
+        font-size: 14px;   
+    }
+
+    #coffee .package-single  p{
+        font-size: 12px;
+    }
+
+    #coffee .package-single .price{
+        font-size: 18px;
+    }
+}

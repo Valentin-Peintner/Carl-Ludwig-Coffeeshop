@@ -1,0 +1,406 @@
+/* Retour link & image */
+#retour-coffee a{
+    font-family: 'Source Code Pro',sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black !important;
+    position: relative;
+    left: -12rem;
+}
+
+/* Bild */
+#article-description img{
+    position: relative;
+    top: 3rem;
+    right: 8rem;
+    margin: 5rem 0rem;
+    padding-right: 9rem;
+}
+
+/* Artikel Beschreibung */
+#article-description{
+    display: flex;
+    margin: 11rem 0rem auto 27rem;
+}
+
+.package-description{
+    width: 26%;
+}
+/* Artikel Name */
+.package-description h2{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+/* Geschmack */
+.flavor{
+    padding-bottom: 3rem;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Zubereitung Empfhelung */
+.top{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    opacity: 75%;
+    width: 90%;
+}
+
+/* Preis */
+.price-info-coffee {
+    padding-top: 3rem;
+}
+
+.price-info-coffee h3{
+    font-family: 'Julius Sans Pro',sans-serif;
+    font-size: 28px;
+    font-weight:lighter;
+}
+
+.price-info-coffee p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size:12px;
+}
+
+/* Status */
+#status {
+    color: green;
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1rem 0;
+}
+
+/* Formular mit Select Felder */
+.form-group {
+    padding: 1rem 0 2rem 0;
+}
+
+/* Formular*/
+.form-group form{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+select#amount{
+    width: 5rem;
+}
+
+/* Erfolgs Nachricht */
+#success-message{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Text unten */
+#wrapper{
+    margin: 2rem 10rem;
+}
+
+.flex-description-bottom{
+    display: flex;
+    margin: 0 10rem 2rem 10rem;
+}
+.flex-description-bottom section{
+    flex: 50%;
+}
+
+/* Rechte Seite mit Empfehlung */
+.right-description{
+    background-color: #C3DDD8;
+    margin: 0 0rem 2rem 5rem;
+    padding: 1rem 1rem;
+    width: 40%;
+}
+
+.text-under-header{
+    font-family: 'Archivo narrow',sans-serif;
+    font-weight: 600;
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 16px;
+}
+
+.right-description h4{
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0.5rem 1rem 1rem 0rem;
+}
+
+/* Listen Element */
+.right-description li{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    margin: 0 1rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 10px;
+}
+
+.right-description li:before {
+    content: "\25BA \0020";
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+  }
+
+/* Text Links mit Info über den Kaffee */
+.coffee-info-top{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.coffee-info-top span{
+    padding-left: 12rem;
+    margin-top: -1.5rem;
+}
+
+.coffee-info-bottom{
+    font-family: 'Julius Sans Pro',sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height:1.4rem;
+    width:90%;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1440px) {
+    /* Retour link & image */
+    #retour-coffee a{
+        left: -5rem;
+        top: 0.7rem;
+    }
+
+    #article-description img{
+        top: 5rem;
+        right: 10rem;
+        margin: 5rem 0rem;
+        padding-right: 0rem;
+    }
+
+    /* Artikel Beschreibung */
+    #article-description{
+        margin: 9rem 0rem auto 18rem;
+    }
+    .package-description{
+        width: 30%;
+    }
+    
+    .flavor{
+        width: 90%;
+    }
+    .top{
+        width: auto;
+    }
+    .price-info-coffee {
+        padding-top: 3rem;
+    }
+    
+    /* Text unten */
+    #wrapper{
+        margin: 2rem 1rem;
+    }
+
+    .flex-description-bottom{
+        display: flex;
+        margin: 0 10rem 2rem 10rem;
+    }
+    .flex-description-bottom section{
+        flex: 50%;
+    }
+
+    
+    /* Rechte Seite mit Empfehlung */
+   
+    .text-under-header{
+        font-family: 'Archivo narrow',sans-serif;
+        font-weight: 600;
+        margin: 2rem 0rem 1rem 0rem;
+        font-size: 16px;
+    }
+   
+    
+    /* Text Links mit Info über den Kaffee */
+    .coffee-info-top{
+        margin-bottom: 8rem; 
+    }
+    
+    .coffee-info-bottom{
+        width:auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* Retour link & image */
+    #retour-coffee a{
+        left: 2rem;
+        top: 0.7rem;
+    }
+
+    #article-description img{
+        top: 5rem;
+        right: 5rem;
+        margin: 5rem 0rem;
+        padding-right: 0rem;
+    }
+
+    /* Artikel Beschreibung */
+    #article-description{
+        margin: 9rem 0rem auto 7rem;
+    }
+    
+    /* Text unten */
+    #wrapper{
+        margin: 2rem 1rem;
+    }
+
+    .flex-description-bottom{
+        display: flex;
+        margin: 0 8rem 2rem 8rem;
+    }
+
+    .flex-description-bottom section{
+        flex: 50%;
+    }
+
+    /* Rechte Seite mit Empfehlung */
+    .text-under-header{
+        font-family: 'Archivo narrow',sans-serif;
+        font-weight: 600;
+        margin: 2rem 0rem 1rem 0rem;
+        font-size: 16px;
+    }
+   
+    /* Text Links mit Info über den Kaffee */
+    .coffee-info-top{
+        margin-bottom: 8rem; 
+    }
+    
+    .coffee-info-bottom{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* Retour link & image */
+    #retour-coffee a{
+        left: 2rem;
+        top: 0.7rem;
+    }
+
+    /* Gesamte Div und Bild */
+    #article-description {
+        margin: 9rem 0rem auto 3rem;
+    }
+    
+    #article-description img{
+        height: 350px;
+        top: 5rem;
+        right: 5rem;
+    }
+    
+   /* Beschreibung */
+    .package-description{
+        width: 35%;
+    }
+    .package-description h2{
+        font-size: 28px;
+    }
+    .flavor{
+        padding-bottom: 3rem;
+        font-size: 14px;
+    }
+    .top{ 
+        font-size: 18px;
+        width: 90%;
+    }
+    .price-info-coffee {
+        padding-top: 3rem;
+    }
+  
+    .form-group form{
+        font-size: 14px;
+    }
+
+    .form-group select#gewicht{
+        width: 19rem;
+    }
+
+    .form-group select#grind{
+        width: 19rem;
+    }
+    
+    .form-group select#amount{
+        width: 4.2em;
+       
+    }
+
+    /* Text unten */
+    #wrapper{
+        margin: 2rem 4rem;
+    }
+
+    /* Rechte Seite mit Empfehlung */
+    .right-description .text-under-header{
+        margin: 2rem 0rem 1rem 1.6rem;
+        font-size: 16px;
+}
+
+    .right-description section h4{
+        font-size: 22px;
+        margin: 0.5rem 1rem 1rem 1rem;
+        text-align: center;
+    }
+   
+    .right-description section li{
+        font-size: 16px;
+        margin: 0 1rem;
+       
+
+    }
+
+/* Text Links mit Info über den Kaffee */
+.flex-description-bottom{
+    margin: 0 2rem 2rem 2rem;
+}
+
+.flex-description-bottom section{
+    flex: 50%;
+}
+    .coffee-info-top{
+        margin-bottom: 8rem; 
+    }
+    
+    .left-description .coffee-info-bottom{
+        width: 95%;
+        font-size: 18px;
+    }
+
+
+    /* Rechte Seite mit Empfehlung */
+    .right-description{
+    background-color: #C3DDD8;
+    margin: 0 10rem 2rem 13.5rem;
+    padding: 1rem 1rem;
+    width: auto;
+  
+    }
+}

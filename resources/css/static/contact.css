@@ -1,0 +1,323 @@
+/* Div unter Header */
+.start-contact{
+    margin-top: 40px;
+}
+
+#contact{
+    width: 100%;
+}
+
+/*Text im Div*/
+.contact{
+    width: 100%;
+    margin: -1vh auto;
+}
+
+.contact section{
+    text-align: center;
+    height: auto;
+    background-color: #456772;
+    color: white;
+}
+
+.contact section h3{  
+    font-family: 'Julius Sans Pro', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline 2px;
+    padding: 5vh 0 2vh 0;
+}
+
+.contact section p{ 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 1.5rem;
+    padding: 5vh 0;
+}
+
+.contact section a{
+    color: white;
+    text-decoration: none;  
+}
+
+.contact section a:hover{
+    text-decoration: underline; 
+}
+
+/* Formular*/
+.form-contact {
+    margin: 10vh auto;
+    text-align: center;
+    height: 40%;
+    width: 100%;   
+}
+
+.form-contact label{
+    font-family: 'Julius Sans Pro', sans-serif;
+    font-size: 28px; 
+}
+
+.form-contact input{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border: 1px solid #456772;
+    border-radius: 5px;
+    width: 60%;
+    margin: 3vh 0 0 0;
+    padding: 10px;   
+}
+
+.form-contact textarea{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    width: 60%;
+    border: 1px solid #456772;
+    border-radius: 5px;
+    margin: 3vh 0vw;       
+}
+
+/* Form button */
+.form-contact button{
+    font-family: 'Julius Sans Pro', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 1px solid #456772;
+    border-radius: 5px;
+    background-color: #456772;
+    color: white;
+    margin: 5vh auto; 
+    padding: 10px 15px;
+}
+
+.form-contact button:hover {
+    background: #fff;
+    color: #16414F;
+    border: 1px solid #16414F;
+    }
+
+/* Google Maps */
+.mapouter{
+    width: 100%;
+}
+
+#loadgooglemaps img {
+    opacity: 0.6;
+    position: absolute;
+}
+
+#loadgooglemaps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+}
+
+/* Button im Standbild maps */
+#loadgooglemaps .button {
+    font-family: 'Julius Sans Pro', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #456772;
+    border-radius: 5px;
+    background-color: #456772;
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1440px) {
+
+    /* Info */
+    .contact{
+        margin: -13vh auto 5vh auto;
+        
+    }
+    .contact section h3{  
+        font-size: 30px;
+        margin: 12vh auto 0 auto;
+    }
+    .contact section p{ 
+        margin: 0vh auto;
+    }
+    /* Formular */
+    .form label{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Info */
+    .contact{
+        margin: -13vh auto 5vh auto;
+    }
+    .contact section h3{  
+        font-size: 30px;
+    }
+    .contact section p{ 
+        margin: 1vh auto;
+    }
+    /* Formular */
+    .form label{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Info */
+    .contact{
+        margin: 5vh auto;
+    }
+    .contact section h3{  
+        font-size: 28px;
+        margin: -6vh auto 0 auto;
+    }
+    .contact section p{ 
+        font-size: 22px;
+        margin: 1vh auto;
+    }
+    /* Formular */
+    .form label{
+        font-size: 26px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Info */
+    .contact{
+        margin: 5vh auto;
+    }
+    .contact section h3{  
+        font-size: 28px;
+    }
+    .contact section p{ 
+        font-size: 22px;
+        margin: 1vh auto;
+    }
+
+    /* Formular */
+    .form label{
+        font-size: 25px;
+    } 
+    .form input{
+        font-size: 18px;
+    }
+
+    .form textarea{
+        font-size: 18px;
+    }
+    .form button{
+        font-size: 20px;
+    }
+
+    #loadgooglemaps .button {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    #contact{
+        height: 200px;
+    }
+    /* Info */
+    .contact{
+        margin: -23vh auto 5vh auto;
+        width: 100%;
+    }
+    .contact section h3{  
+        font-size: 22px;
+        margin: 22vh auto 0 auto;
+    }
+    .contact section p{ 
+        padding: 2vh 0 5vh 0;
+        font-size: 18px;
+    }
+    /* Formular */
+    .form label{
+        font-size: 20px;
+    } 
+    .form input{
+        font-size: 16px;
+    }
+    .form textarea{
+        font-size: 16px;
+    }
+    .form button{
+        font-size: 18px;
+    }
+    #loadgooglemaps .button {
+        font-size: 18px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+   /* Info */
+   .contact{
+        margin: 5vh auto;
+    }
+    .contact section h3{  
+        font-size: 18px;
+        margin: -6vh auto 0 auto;      
+    }
+    .contact section p{ 
+        font-size: 16px;
+        line-height:1;     
+    }
+
+    /* Formular */
+    .form label{
+        font-size: 18px;
+    } 
+    .form input{
+        font-size: 14px;
+    }
+    .form textarea{
+        font-size: 14px;
+    }
+    .form button{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .start {
+        height: 110px;
+    }
+
+   /* Info */
+   .contact{
+        margin: 5vh auto;
+    }
+    .contact section h3{  
+        font-size: 18px;
+        margin:-6vh auto 0 auto;     
+    }
+    .contact section p{ 
+        font-size: 16px;      
+    }
+    /* Formular */
+    .form label{
+        font-size: 14px;
+    } 
+    .form input{
+        font-size: 14px;
+    }
+    .form textarea{
+        font-size: 14px;
+    }
+    .form button{
+        font-size: 16px;
+    }
+    #loadgooglemaps .button {
+        font-size: 16px; 
+    }
+}
+

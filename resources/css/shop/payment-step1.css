@@ -1,0 +1,109 @@
+.form-header{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.form-header::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #16414F;
+}
+
+/* parent div */
+.payment-container{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.user-info-payment div span{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.user-payment-form{
+    display: inline-block;  
+    margin: 2rem;
+}
+
+.user-payment-form form .adress-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.user-payment-form  form .adress-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+.adress-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.adress-details .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.adress-details .input-box input:focus,
+.adress-details .input-box input:visited{
+    border-color: #16414F;
+}
+
+.adress-details .input-box .details{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Buttons */
+#btn-payment button{
+    font-size: 20px;
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background-color: #456772;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 5rem;
+}
+
+#btn-payment button:hover{
+    background-color: white;
+    color: #456772;
+    border: 1px solid #456772;
+    transition: 1s;
+}
+
+
+
+

@@ -1,0 +1,123 @@
+/* body */
+#body-profile{
+    display: flex;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(15deg, #3b83a0,#C3DDD8);
+}
+/* div */
+.container-profile{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+/* div überschrift */
+.container-profile .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-profile .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #16414F;
+}
+
+/* formular */
+.container-profile form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+/* form label */
+.container-profile form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+/* form input felder */
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:visited{
+    border-color: #16414F;
+}
+
+.user-details .input-box .details{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* Form button */
+.container-profile form button{
+    height: 45px;
+    margin: 5px 0;
+    padding: 15px;
+    background: #16414F;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid #16414F;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.container-profile form button:hover{
+    background: #fff;
+    color: #16414F;
+    border: 1px solid #16414F;
+}
+
+/* Erfolgs message */
+.success-message{
+    color: green;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 584px){
+    .container-profile{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .container-profile form .user-details{
+      max-width: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}

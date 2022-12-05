@@ -1,0 +1,202 @@
+/* Zur Kassa button */
+#btn-primary{
+    display: block;
+    text-align: right;
+    margin: 10rem 12rem 5rem 0rem;
+}
+
+#btn-primary button{
+    font-size: 20px;
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background-color: #456772;
+    color: white;
+    padding: 10px 30px;
+}
+
+#btn-primary button:hover{
+    background-color: white;
+    color: #456772;
+    border: 1px solid #456772;
+    transition: 1s;
+}
+
+/* div für Tabelle */
+#table-container{
+    width: auto;
+    height:auto;
+}
+
+/* Tabelle */
+#table-container table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-head th{
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align:right;
+    border-bottom: 1px solid black; 
+}
+
+.table-head th:first-child{
+    text-align: left; 
+}
+
+.table-row td:first-child{
+    text-align: left;
+}
+
+.table-row td {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: right;  
+}
+
+#price-info-container{
+    width: 100%;
+    height: 300px;
+    background-color: #C3DDD8;
+    margin: 5rem 0;
+    font-family: 'Julius Sans One',sans-serif;
+}
+
+/* Löschen button */
+#btn-delete{
+    font-family: 'Julius Sans One',sans-serif;
+    border: 1px solid #456772;
+    background-color: #FFFFFF;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#btn-delete:hover{
+    background-color: #456772;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+/* Preisangabe unter Tabelle */
+.price-summary{
+    margin: 0rem auto;
+    padding: 5rem 0;
+}
+
+.price-summary tr{
+    text-emphasis: left;
+}
+
+.price-summary td{
+    padding: 0.2rem 5rem;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1440px) {
+    #btn-primary{  
+        margin: 10rem 9rem 5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #btn-primary{  
+        margin: 10rem 7.5rem 5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #btn-primary{  
+        margin: 10rem 6.5rem 5rem 0rem;
+    }
+    #btn-primary button{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #btn-primary{  
+        margin: 10rem 4.8rem 5rem 0rem;
+    }
+    #btn-primary button{
+        font-size: 18px;
+    }
+    .table-head th{
+        font-size: 18px; 
+    }
+    .table-row td {
+        font-size: 16px;
+    }
+    #price-info-container{
+        font-size: 14px;
+    }
+    #btn-delete{
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #btn-primary{  
+        margin: 10rem 3rem 5rem 0rem;
+    }
+    #btn-primary button{
+        font-size: 16px;
+    }
+    .table-head th{
+        font-size: 16px; 
+    }
+    .table-row td {
+        font-size: 14px;
+    }
+    #price-info-container{
+        font-size: 12px;
+    }
+    .price-summary{
+        margin: 0rem auto;
+        padding: 5rem 0;
+    }
+    .price-summary tr{
+        text-emphasis: left;
+    } 
+    .price-summary td{
+        padding: 0.2rem 4rem;
+    }
+    #btn-delete{
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #btn-primary{  
+        margin: 10rem 1rem 5rem 0rem;
+    }
+    #btn-primary button{
+        font-size: 14px;
+    }
+    #table-container table {
+        width: 90%;
+        margin: 0 auto;
+    }  
+    .table-head th{
+        font-size: 14px; 
+    }
+    .table-row td {
+        font-size: 12px;
+    }
+    #price-info-container{
+        font-size: 12px;
+    }
+    .price-summary{
+        margin: 0rem auto;
+        padding: 5rem 0;
+    }
+    .price-summary td{
+        padding: 0.2rem 1rem;
+    }
+    #btn-delete{
+        padding: 2px;
+    }
+}
+

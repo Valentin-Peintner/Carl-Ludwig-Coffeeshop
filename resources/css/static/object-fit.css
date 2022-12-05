@@ -1,0 +1,4 @@
+/* Damit Bilder mit dieser Klasse sich ihre Größe richtig anpassen*/
+.object-fit{
+    object-fit: cover;
+}

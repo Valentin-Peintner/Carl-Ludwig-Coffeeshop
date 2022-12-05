@@ -1,0 +1,70 @@
+/* Gesamte Div */
+.container-dashboard{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+/* Begrüßung */
+.container-dashboard .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-dashboard .title p{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.container-dashboard .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 40px;
+    background: #16414F;
+}
+
+/* Content - Persönliche Daten - Adresse */
+.dashboard-content{
+    text-align: center;
+}
+
+/* Divs */
+.dashboard-details .text-info {
+   margin: 3rem 0;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 18px;
+}
+
+/* Damit divs nebeinander sind */
+.container-dashboard .dashboard-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+
+/* Überschrift Persönliche Daten - Adresse */
+.container-dashboard .head{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    margin-top: 2rem;
+    font-weight: 200;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+
+
+

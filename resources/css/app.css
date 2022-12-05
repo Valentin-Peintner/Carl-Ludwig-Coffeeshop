@@ -1,0 +1,106 @@
+/* 
+-----------------------------------
+CSS für Component - Header - Footer
+-----------------------------------
+*/
+
+/* Static Component */
+@import '/resources/css/components/header.css';
+@import '/resources/css/components/footer.css';
+
+/* Shop Component */
+@import '/resources/css/components/header-shop.css';
+@import '/resources/css/components/footer-shop.css';
+
+/* Payment Component */
+@import '/resources/css/components/header-payment.css';
+
+/* UserInterface Component*/
+@import '/resources/css/index/navigation.css';
+
+/* 
+----------------------
+CSS für Content
+----------------------
+*/
+
+/*  Static Pages */
+@import '/resources/css/static/home.css';
+@import '/resources/css/static/about-us.css';
+@import '/resources/css/static/contact.css';
+@import '/resources/css/static/datenschutz.css';
+@import '/resources/css/static/impressum.css';
+@import '/resources/css/static/object-fit.css';
+
+/* Shop Pages */
+@import '/resources/css/shop/home-shop.css';
+@import '/resources/css/shop/coffee.css';
+@import '/resources/css/shop/equipment.css';
+@import '/resources/css/shop/coffee-single.css';
+@import '/resources/css/shop/equipment-single.css';
+@import '/resources/css/shop/warenkorb.css';
+
+/* Authorization */
+@import '/resources/css/index/login.css';
+@import '/resources/css/index/sign-up.css';
+@import '/resources/css/index/pw-reset.css';
+
+/* User Interface */
+@import '/resources/css/index/user-übersicht.css';
+@import '/resources/css/index/user-profile.css';
+@import '/resources/css/index/user-adresse.css';
+@import '/resources/css/index/user-order.css';
+
+/* Payment */
+@import '/resources/css/shop/payment-step1.css';
+@import '/resources/css/shop/payment-overview.css';
+@import '/resources/css/shop/payment.css';
+@import '/resources/css/shop/payment-success.css';
+
+
+
+/* 
+------------
+Googe Fonts
+------------
+*/
+
+/* source-sans-pro-regular - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-sans-pro-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/source-sans-pro-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* julius-sans-one-regular - latin */
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src:  url('../fonts/julius-sans-one-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/julius-sans-one-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+/* archivo-narrow-regular - latin */
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/archivo-narrow-v24-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/archivo-narrow-v24-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+/* 
+------------
+Unsiversal 
+------------
+*/
+
+*{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  box-sizing: border-box;
+}

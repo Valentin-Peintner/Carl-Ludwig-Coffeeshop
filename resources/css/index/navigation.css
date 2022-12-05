@@ -1,0 +1,53 @@
+/* Navigation links*/
+.navbar-user{
+     margin: 0rem auto;
+}
+
+.navbar-user ul{
+    display: flex;
+    background-color: #16414F;
+}
+
+.navbar-user li{
+    margin: 10px;
+    padding-left: 1.5rem;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-user li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navbar-user li a:hover{
+    text-decoration: underline;
+}
+
+/* navigation rechts */
+.user-logout{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.user-logout a{
+    color: #16414F;
+    font-size: 14px;
+}
+
+.navbar-user .pd-right{
+    margin-right: 62rem;
+}
+
+@media screen and (max-width: 1440px){
+    .navbar-user .pd-right{
+        margin-right: 30rem;
+    }
+
+}

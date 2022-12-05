@@ -1,0 +1,35 @@
+.pm-success{
+    color: green;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.pm-thanks{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pm-thanks h3{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pm-thanks p{
+    margin-bottom: 2rem;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.pm-thanks a button{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}

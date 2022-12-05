@@ -1,0 +1,151 @@
+/* body */
+#body-signup{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(15deg, #3b83a0,#C3DDD8);
+}
+
+/* trenn element */
+.register-box{
+    width: 100%;
+    height: 100px;
+    background-color: #16414F;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+/* Div für Form */
+.container-signup{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+/* Überschrift */
+.container-signup .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-signup .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #16414F;
+}
+
+/* Form Feld Anrede */
+.gender select{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    width: auto;
+    padding: 0.5rem 2rem;   
+} 
+
+.container-signup form .signup-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+/* Labels */
+.container-signup form .signup-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+/* Input fleder */
+.signup-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Anrede und Land  */
+.signup-details .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.signup-details .input-box input:focus,
+.signup-details .input-box input:visited{
+    border-color: #16414F;
+}
+
+.signup-details .input-box .details{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* link zurück zum login */
+.exists{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.exists a{
+    color:black;
+}
+
+/* Form button */
+#btn-register{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-register {
+    font-size: 22px;
+    border: 1px solid #16414F;
+    background-color: #16414F;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.8rem 5rem;
+    transition: 1s;
+}
+
+.btn-register:hover{
+    background-color: #fff;
+    color: #16414F;
+}
+
+
+
+
+
+

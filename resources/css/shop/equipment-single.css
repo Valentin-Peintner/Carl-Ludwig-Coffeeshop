@@ -1,0 +1,199 @@
+/* Retour link & image */
+#retour a{
+    font-family: 'Source Code Pro',sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black !important;
+    position: relative;
+    margin-left: -28rem;
+}
+
+/* Bild */
+#equipment img{
+    position:relative;
+    right: 12rem;
+    padding-right: 5rem;
+}
+
+/* Artikel Beschreibung */
+#equipment{
+    display: flex;
+    margin: 11rem 0rem auto 40rem;
+}
+
+.equipment-description{
+    width: 30%;
+}
+
+.equipment-description img{
+    margin: 0;
+}
+
+.equipment-description h2{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.hario{
+    padding-bottom: 5rem;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Preis Info */
+.price-info-equipment h3{
+    font-family: 'Julius Sans Pro',sans-serif;
+    font-size: 28px;
+    font-weight:lighter;
+}
+
+.price-info-equipment p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size:12px;
+}
+
+/* Status */
+#status {
+    color: green;
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1rem 0;
+}
+
+/* Formular mit Select Felder */
+.form-group {
+    padding: 1rem 0 2rem 0;
+}
+
+.form-group form{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Menge */
+#options select{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14.5px;
+    margin-bottom: 1rem;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    text-align: left;
+    padding: 0.6rem;
+    width: 20.2rem;
+}
+
+select#amount{
+    width: 5rem;  
+}
+
+/* Form Button */
+#options button{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    padding: 0.6rem;
+    width: 15rem;
+    transition: 1s ease-in-out;
+}
+
+#options button:hover{  
+    background-color: #fff;
+    color: black;
+}
+
+/* Div unter dem Produkt */
+.equipment-info{
+    background-color: #C3DDD8;
+    height: 400px;
+    margin: 3rem 5rem 8rem 5rem;
+    padding: 3rem 2rem;
+}
+
+.equipment-info h3{
+    font-family: 'Archivo narrow',sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-bottom: 1rem;
+}
+
+.equipment-info p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 22px;
+    line-height: 2rem;
+    text-align: left;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1440px) {
+
+    /* Retour link & image */
+    #retour a{
+        margin-left: -12rem;
+    }
+
+    #equipment img{
+        right: 6rem;
+        padding-right: 5rem;
+    }
+
+    #equipment{
+        display: flex;
+        margin: 11rem 0rem auto 25rem;
+    }
+
+    .equipment-info h3{
+        font-size: 26px;
+    }
+    
+    .equipment-info p{
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Retour link & image */
+    #retour a{
+        margin-left: -7rem;
+    }
+
+    #equipment img{
+        position:relative;
+        right: 2rem;
+        padding-right: 4rem;
+    }
+
+    #equipment{
+        display: flex;
+        margin: 11rem 0rem auto 16rem;
+    }
+
+    .equipment-info{
+        height: 400px;
+        margin: 3rem 5rem 8rem 5rem;
+        padding: 3rem 2rem;
+    }
+
+    .equipment-info section{
+       margin-top: -1.5rem;
+    }
+
+
+    .equipment-info h3{
+        font-size: 24px;
+    }
+    
+    .equipment-info p{
+        font-size: 20px;
+        line-height: 1.5rem;    
+    }
+}

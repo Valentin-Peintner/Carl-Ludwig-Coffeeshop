@@ -1,0 +1,251 @@
+/* gesamte div */
+#navbar-footer-shop{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+    background-color: #456772;
+}
+
+.center{
+    margin: 1rem 0;
+}
+
+/* Linke Seite */
+.container-footer-left{
+    width: auto;
+    display: inline-block;
+}
+
+.payment-header{
+   font-family:'Julius Sans One', sans-serif;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: #fff;
+   padding-left: 1rem;
+   padding-top: 2rem;
+   margin-bottom: 1rem;  
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Bilder */
+.payment img{
+    margin-left: 1rem; 
+    margin-bottom: 2rem;  
+}
+
+/* versand */
+.delivery{   
+    height: auto;
+    width: auto;
+}
+
+.delivery p{
+    font-family:'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 1rem;  
+}
+
+.delivery img{
+    margin-left: 1rem;
+}
+
+/* Rechte Seite */
+.container-footer-right{
+    width: auto;
+    display: inline-block;
+}
+
+.navbar-footer-shop-right{  
+    margin-right:1rem;
+    margin-top: 5.5rem;
+}
+
+.navbar-footer-shop-right li{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 18px;
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.navbar-footer-shop-right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-footer-shop-right a:hover{
+    text-decoration: underline;
+}
+
+
+/* Media Queries*/
+@media screen and (max-width:1200px) {
+
+    /* Linke Seite */
+    .payment-header{
+    font-size: 18px;
+    }
+
+    .payment img{
+        height: 60px;
+    }
+
+    /* Linke Seite */
+    .delivery p{
+        font-size: 18px; 
+    }
+
+    /* Rechte Seite */
+    .navbar-footer-shop-right li{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    #navbar-footer-shop{
+        height: 300px;
+    }
+
+    /* Linke Seite */
+    .payment-header{
+    font-size: 16px;
+    }
+
+    /* Linke Seite */
+    .delivery p{
+        font-size: 16px; 
+    }
+
+    /* Rechte Seite */
+    .navbar-footer-shop-right li{
+        font-size: 16px;
+    }
+}
+
+@media  screen and (max-width:768px){
+
+    #navbar-footer-shop{
+        height: 280px;
+    }
+
+    /* Linke Seite */
+    .payment-header{
+    font-size: 15px;
+    }
+
+    .center{
+        margin: 1.5rem 0;
+    }
+
+    .payment img{
+        height: 50px;
+        margin-bottom: 1rem;  
+    }
+
+    /* Linke Seite */
+    .delivery p{
+        font-size: 15px; 
+    }
+
+    /* Rechte Seite */
+    .navbar-footer-shop-right li{
+        font-size: 15px;
+    }
+
+    .navbar-footer-shop-right{  
+        margin-top: 4.5rem;
+    }
+}
+
+@media  screen and (max-width:480px){
+
+    #navbar-footer-shop{
+        height: 260px;
+    }
+
+    /* Linke Seite */
+    .payment-header{
+    font-size: 14px;
+    }
+
+    .center{
+        margin: 1rem 0;
+    }
+
+    .payment img{
+        height: 40px;
+        padding-left: 0;
+        margin-bottom: 1rem;  
+    }
+
+    /* Linke Seite */
+    .delivery p{
+        font-size: 14px; 
+    }
+
+    .delivery img{
+        height: 60px;
+    }
+
+    /* Rechte Seite */
+    .navbar-footer-shop-right li{
+        font-size: 14px;
+        width: auto;
+    }
+
+    .navbar-footer-shop-right{  
+        margin-top: 3.5rem;
+    }
+}
+
+@media  screen and (max-width:320px){
+
+    #navbar-footer-shop{
+        height: 220px;
+    }
+
+    /* Linke Seite */
+    .payment-header{
+        display:none;
+    }
+
+    .center{
+        display:none;
+    }
+
+    .payment img{
+        display:none;
+    }
+
+    /* Linke Seite */
+    .delivery p{
+        display:none;
+    }
+
+    .delivery img{
+        display:none;
+    }
+
+    /* Rechte Seite */
+    .container-footer-right{
+        margin: auto;
+    }
+
+    .navbar-footer-shop-right li{
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+    .navbar-footer-shop-right{  
+        margin: 3rem auto;
+    }
+}

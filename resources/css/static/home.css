@@ -1,0 +1,994 @@
+/* Video*/
+.video{
+    position: relative;
+    width:100%;
+    height:500px;
+    margin-top: 40px;
+}
+
+.video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    object-fit: cover;
+}
+
+/* text unter dem Video */
+.top-text{
+    text-align: center;
+    height: 200px;
+    background-color: #C3DDD8;
+    padding: 35px 0px;
+}
+
+.top-text p {
+    font-family: 'Archivo narrow', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #16414F;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* Beschreibung Angebot */
+/* Essen */
+.section-food{   
+    float: left;
+    width: auto;
+    padding: 10vh 0vw 10vh 23vw;
+}
+
+.section-food h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding: 1vh 0;
+}
+
+.section-food p{
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 20px;
+    width: 350px;
+    hyphens: auto;
+    text-align: justify;
+    text-align-last: left;
+    opacity: 80%;
+}
+
+/* Trinken */
+.img-drink{
+    padding-right: 1vw;
+}
+
+.section-drinks{
+    display: flex;
+    float: right;
+    width: 355px;
+    padding: 10vh 45vw 10vh 0vw;
+}
+
+.section-drinks h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;  
+    text-transform: uppercase;
+    padding: 1vh 0;
+}
+
+.section-drinks p{
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 20px;
+    width: 440px;
+    hyphens: auto;
+    text-align: justify;
+    text-align-last: left;
+    opacity: 80%;
+    padding-bottom: 3vh
+}
+
+/* Bewertungen */
+.review{
+    height: 180px;  
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+/* Review links */
+.left{
+    background-color: #456772;
+    color: white;
+    padding: 4vh;
+}
+
+.left h4{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.left p{
+    text-align: center; 
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 22px;  
+}  
+
+.left a{
+    font-family: 'archivo narrow',sans-serif;
+    padding: 1vh;
+    text-decoration: none;
+    color: white;
+}
+
+/* Review links mitte */
+.left-m{
+    text-align: left;
+    border-radius: 0px;
+    color: #16414F;
+    background-color: #C3DDD8;
+    padding: 4vh;
+}
+
+.left-m h4{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.left-m p{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 22px;
+}
+
+.left-m a{
+    font-family: 'archivo narrow',sans-serif;
+    padding: 1vh;
+    text-decoration: none;
+    color: #16414F;
+}
+
+/* Review rechts mitte*/
+.right-m{
+    text-align: left;
+    border-radius: 0px;
+    background-color: #456772;
+    color: white;
+    padding: 4vh;
+}
+
+.right-m h4{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: auto;   
+}
+
+.right-m p{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 22px;
+}
+
+.right-m a{
+    font-family: 'archivo narrow',sans-serif;
+    padding:1vh;
+    text-decoration: none;
+    color: white;
+}
+
+/* Review rechts */
+.right{
+    text-align: left;
+    display: block;
+    border-radius: 0px;
+    color: #16414F;
+    background-color: #C3DDD8;
+    padding: 4vh;
+}
+
+.right h4{
+    text-align: center;
+    font-family: 'archivo narrow',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.right p{
+    text-align: center;  
+    font-family: 'archivo narrow',sans-serif;
+    font-size: 22px;
+}
+
+.right a{
+    font-family: 'archivo narrow',sans-serif;
+    padding:1vh;
+    text-decoration: none;
+    color: #16414F;
+}
+
+/* Hover Effect Links Publisher Leiste */
+
+.right a:hover{
+    text-decoration: underline;
+}
+
+.right-m a:hover{
+    text-decoration: underline;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
+
+.left-m a:hover{
+    text-decoration: underline;
+}
+
+
+/* Große Bild zwischen Publisher Leiste & Öffnungszeiten */
+.picture{
+    line-height: 0;  
+}
+
+/* Öffnungszeiten */
+.opening-info{
+    border: 1px solid #456772;
+    background-color: #456772;
+    height: 180px;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.info h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.info p{
+    font-size:20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
+/* Media queries */
+/* Normalerweise mobile device first */
+@media screen and (max-width: 1440px) {
+
+    .top-text{
+        padding: 50px 0px;
+    }
+    .top-text p {
+        font-size: 25px;  
+        width: 65%;
+    }
+
+    /* Text links */
+    .section-food{
+        padding: 10vh 0vw 10vh 15vw;
+    }
+    .section-food h4{
+        font-size: 22px; 
+    }
+  
+    /* Text rechts  */  
+    .img-drink{
+       padding-right: 1.5vw;
+    }
+    .section-drinks h4 {     
+        font-size: 22px;
+    }
+    .section-drinks p {    
+        width: 430px;
+        padding-bottom: 2vh;
+    }  
+
+    /* Review */
+
+    .left{
+        padding: 5vh;
+    }
+    .left p{
+        font-size: 21px;   
+    }
+    .left-m{
+        padding: 5vh;
+    }
+    .left-m p{
+        font-size: 21px;   
+    }
+    .right-m{
+        padding: 5vh;
+    }
+    .right-m p{
+        font-size: 21px;   
+    }
+    .right{
+        padding: 5vh;
+    }
+    .right p{
+        font-size: 21px;   
+    }
+    .picture img{
+        height: auto;
+    }
+}
+
+    @media screen and (max-width: 1200px) {
+
+    /* Text nach Video */
+    .top-text p {
+        font-size: 24px;
+        width: 75%;
+        padding: 5px 0;
+    }
+
+    /* Text links */
+    .section-food{
+        padding: 10vh 0vw 10vh 13vw;
+    }
+    .img-food{
+        height: 370px;
+        width: 350px;
+    }
+    .section-food h4{
+        font-size: 20px;  
+    }
+    .section-food p{       
+        font-size: 20px;  
+    }
+
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        float: right;
+        width: 340px;
+        padding: 10vh 48vw 10vh 0vw;
+    }
+    .img-drink{      
+        padding-right: 1.8vw;
+    }
+
+    /* Review */
+   
+    .left h4{
+        font-size: 1.3em;
+    }
+    .left p{
+        font-size: 18px;  
+    }
+    .left-m h4{
+        font-size: 1.3em;
+    }
+    .left-m p{
+        font-size: 18px;  
+    }
+    .right-m h4{
+        font-size: 1.3em;
+    }
+    .right-m p{
+        font-size: 18px;  
+    }
+    .right h4{
+        font-size: 1.3em;
+    }
+    .right p{
+        font-size: 18px;  
+    }
+    .picture img{
+        height: auto;
+    }
+
+    /* Öffnungszeiten */
+    .info h2{
+        font-size: 29px;
+    } 
+    .info p{
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Text nach Video */
+    .top-text{
+        height: 180px;
+        padding: 45px 0px;
+    }
+    .top-text p {
+        font-size: 23px;
+        width: 80%;
+        padding: 3px 0;
+    }
+
+    /* Text links */
+    .section-food{
+        padding: 10vh 0vw 10vh 6vw;
+    }
+
+    .section-food h4{
+        font-size: 20px;  
+    }
+    .section-food p{       
+        font-size: 20px;  
+    }
+
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        float: right;
+        width: 340px;
+        padding: 10vh 47.5vw 10vh 0vw;
+    }
+    .img-drink{      
+        padding-right: 2vw;
+    }
+
+    /* Review */
+    .left{
+        padding: 6vh 0vw;
+    }
+    .left h4{
+        font-size: 1.2em;
+        padding: 1vh auto;
+    }
+    .left p{
+        font-size: 18px;   
+    }
+    .left-m{
+        padding: 6vh 0vw;
+    }
+    .left-m h4{
+        font-size: 1.2em;
+        padding: 1vh auto;
+    }
+    .left-m p{
+        font-size: 18px; 
+    }
+    .left-m a{
+        padding: 1px;
+    }
+    .right-m{
+        padding: 6vh 0vw;
+    }
+    .right-m h4{
+        font-size: 1.2em;
+        padding: 1vh auto;
+    }
+    .right-m p{
+        font-size: 18px;  
+    }
+    .right-m a{
+        padding: 1px;
+    }
+    .right{
+        padding: 6vh 0vw;
+    }
+    .right h4{
+        font-size: 1.2em;     
+    }
+    .right p{
+        font-size: 18px;  
+    }
+    .right a{
+        padding: 1px;
+    }
+
+    .picture img{
+        height: auto;
+    }
+
+    /* Öffnungszeiten */
+    .info h2{
+        font-size: 29px;
+    } 
+    .info p{
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Text nach Video */
+    .top-text{
+        height: 150px;
+        padding: 25px 0px;
+    }
+    .top-text p {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    /* Text links */
+    .img-food{
+        height: 300px;
+        width: 100%;
+        margin-left: 0.2rem;
+    }
+    .section-food{
+        width: 715px;
+        padding: 10vh auto;
+    }
+    .section-food h4{
+        font-size: 20px;  
+        margin-left: 0.2rem;
+    }
+    .section-food p{     
+        margin-left: 0.2rem;  
+        font-size: 18px;  
+        width: auto;
+    }
+
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        width: 750px;
+        padding: 0 7vw 10vh 4vw;  
+    }
+    .img-drink{      
+        height:250px;
+        width: 320px;
+        margin-left: 0.2rem;
+    }
+    .img-maschine{
+        margin-left: 1.1rem;
+        height:250px;
+        width: 320px;
+    }
+
+    .section-drinks h4{ 
+        margin-left: 0.2rem;
+    }
+    .section-drinks p{     
+        margin-left: 0.2rem;  
+        font-size: 18px;  
+        width: auto;
+    }
+
+    /* Review */
+    .review{
+        height: 140px;  
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .left{
+        padding: 5vh 0vw;
+    }
+    .left h4{
+        font-size: 16px;   
+    }
+    .left a{
+        font-size: 16px;  
+        padding: 0;
+    }
+    .left-m{
+        padding: 5vh 0vw;
+        
+    }
+    .left-m h4{
+        font-size: 16px;
+    }
+    .left-m  a{
+        font-size: 16px; 
+        padding: 0;   
+    }
+    .right-m{
+        padding: 5vh 0vw;
+    }
+    .right-m h4{
+        font-size: 16px;
+    }
+    .right-m  a{
+        font-size: 16px; 
+        padding: 0;
+    }
+    .right{
+        padding: 5vh 0vw;
+    }
+    .right h4{
+        font-size: 16px; 
+    }
+    .right a{
+        font-size: 16px;
+        padding: 0; 
+    }
+    .picture img{
+        height: auto;
+    }
+
+    /* Öffnungszeiten */
+    .info h2{
+        font-size: 20px;
+    } 
+    .info p{
+        font-size: 14px;
+        padding: 0 0vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+     /* Text nach Video */
+     .top-text{
+        height: 150px;
+        padding: 35px 0px;
+    }
+    .top-text p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    /* Text links */
+    .img-food{
+        height: 250px;
+        width: 380px;
+    }
+    .section-food{
+        width: 750px;
+        padding: 10vh 0vw 10vh 18.5vw;
+    }
+    .section-food h4{
+        font-size: 18px;  
+    }
+    .section-food p{       
+        font-size: 18px;  
+        width: 60%;
+    }
+
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        float: right;
+        width: 550px;
+        padding: 0 10vw 10vh 10vw;
+    }
+    .img-drink{      
+        height: 220px;
+        width: 190px;
+    }
+    .img-maschine{
+        height: 220px;
+        width: 175px;
+        margin: 0 0 0 3vw;
+    }
+    .section-drinks h4{
+        font-size: 18px;
+    }
+    .section-drinks p{       
+        font-size: 18px;  
+        width: 90%;
+    }
+
+    /* Review */
+    .review{
+        height: 140px;  
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .left{
+        padding: 5vh 1vw;
+    }
+    .left h4{
+        font-size: 16px;
+    }
+    .left a{
+        font-size: 14px;   
+    }
+    .left-m{
+        padding: 5vh 1vw;
+    }
+    .left-m h4{
+        font-size: 16px;  
+    }
+    .left-m  a{
+        font-size: 14px;    
+    }
+    .right-m{
+        padding: 5vh 1vw;
+    }
+    .right-m h4{
+        font-size: 16px; 
+    }
+    .right-m  a{
+        font-size: 14px; 
+    }
+    .right{
+        padding: 5vh 0vw;
+    }
+    .right h4{
+        font-size: 16px;
+    }
+    .right a{
+        font-size: 14px; 
+    }
+
+     /* Große Bild zwischen Publisher Leiste & Öffnungszeiten */
+     .picture img{
+        height: auto;
+    }
+    /* Öffnungszeiten */
+    .info h2{
+        font-size: 20px;
+    } 
+    .info p{
+        font-size: 12px;
+        padding: 0 1vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /*Video */
+    .video{
+        display: none;
+        }
+    /* Text nach Video */
+    .top-text{
+        height: 150px;
+        margin-top: 30px;
+        padding: 30px 0px;
+    }
+    .top-text p {
+        font-size: 16px;
+        width: 90%;
+        padding: 5px 0;
+    }
+
+    /* Text links */
+    .img-food{
+        height: 250px;
+        width: 295px;
+    }
+    .section-food{
+        width: 750px;
+        padding: 10vh 0vw 10vh 18.5vw;
+    }
+    .section-food h4{
+        font-size: 17px;  
+    }
+    .section-food p{       
+        font-size: 17px;  
+        width: 45%;
+    }
+
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        float: right;
+        width: 440px;
+        padding: 0 12vw 10vh 10vw;
+    }
+    .img-drink{      
+        margin-right: -2vw;
+        height: 180px;
+        width: 150px;
+    }
+    .img-maschine{  
+        height: 180px;
+        width: 140px;
+    }
+    .section-drinks h4{
+        font-size: 17px;
+    }
+    .section-drinks p{       
+        font-size: 17px;  
+        width: 90%;
+    }
+
+    /* Review */
+    .review{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .left h4{
+        font-size: 22px;
+    }
+    .left a{
+        font-size: 18px;   
+    }
+    .left-m h4{
+        font-size: 22px;  
+    }
+    .left-m a{
+        font-size: 18px;         
+    }  
+    .right-m h4{
+        font-size: 22px;       
+    }
+    .right-m a{
+        font-size: 18px; 
+    }
+
+    .right h4{
+        font-size: 22px;
+    }
+    .right a{
+        font-size: 18px;       
+    }
+
+    
+    /* Große Bild zwischen Publisher Leiste & Öffnungszeiten */
+    .picture img{
+        height: auto;
+    }
+
+    /* Öffnungszeiten */
+    .opening-info{
+        height: auto;      
+    }
+    .info {
+        display: grid;
+        grid-template-rows: auto;
+        margin: 5px;
+    }
+    .info h2{
+        font-size: 20px;
+        margin: 1.5vh 1vw 0vh 1vw;
+    } 
+    .info p{
+        font-size: 14px;
+        padding: 0vh 0vw 1vh 0vw;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .video{
+        display: none;
+        }
+    /* Text nach Video */
+    .top-text{
+        height: 150px;
+        margin-top: 30px;
+        padding: 15px 0px;
+    }
+    .top-text p {
+        font-size: 14px;
+        width: 70%;
+        padding: 0;
+    }
+    
+    /* Text links */
+    .img-food{
+        height: 200px;
+        width: 240px;
+    }
+    .section-food{
+        width: 750px;
+        padding: 10vh 10vw 10vh 12vw;
+    }
+    .section-food h4{
+        font-size: 17px;  
+    }
+    .section-food p{       
+        font-size: 17px;  
+        width: 35%;
+    }
+    
+    /* Text rechts  */
+    .section-drinks{
+        display: flex;
+        float: right;
+        width: 400px;
+        padding: 0 0vw 10vh 38vw;
+    }
+    .img-drink{      
+        margin-left: -0.5vw;
+        height: 150px;
+        width: 120px;
+    }
+    .img-maschine{  
+        height: 150px;
+        width: 110px;
+    }
+    .section-drinks h4{
+        font-size: 17px;
+    }
+    .section-drinks p{       
+        font-size: 17px;  
+        width: 85%;
+    }
+
+    /* Review */
+    .review{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .left{
+        padding: 5vh 1vw;
+    }  
+    .left h4{
+        font-size: 20px;
+       
+    }
+    .left a{
+        font-size: 18px;   
+    }
+
+    .left-m{
+        padding: 5vh 1vw;
+    }
+    .left-m h4{
+        font-size: 20px;
+    }
+    .left-m a{
+        font-size: 18px; 
+         
+    }
+    .right-m{
+        padding: 5vh 1vw;
+    }
+    .right-m h4{
+        font-size: 20px;
+    }
+    .right-m a{
+        font-size: 18px; 
+    }
+    .right{
+        padding: 5vh 0vw;
+    }
+    .right h4{
+        font-size: 20px;
+    }
+    .right a{
+        font-size: 18px; 
+      
+    }
+
+    /* Große Bild zwischen Publisher Leiste & Öffnungszeiten */
+    .picture img{
+        height: 300px;
+    }
+
+    /* Öffnungszeiten */
+    .opening-info{
+        height: 325px;      
+    }
+    .info {
+        display: grid;
+        grid-template-rows: auto;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .info h2{
+        font-size: 18px;
+        margin: 0 auto;
+    } 
+    .info p{
+        font-size: 14px;
+        padding: 0vh 0vw 1vh 0vw;
+    }
+}
+

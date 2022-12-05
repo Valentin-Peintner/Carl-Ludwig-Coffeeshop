@@ -1,0 +1,55 @@
+/* div */
+.container-order{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+/* Überschrift */
+.container-order .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 3rem;
+    font-weight: 200;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-order .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #16414F;
+}
+
+/* Tabelle */
+.table-order{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.table-order .thead{
+    font-family: 'Archivo narrow',sans-serif;
+}
+
+.table-order .table-top tr td {
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.table-order tbody td {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px; 
+}
+
+
+
+
+

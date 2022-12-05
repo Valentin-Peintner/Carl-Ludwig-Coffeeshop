@@ -1,0 +1,248 @@
+/* gesamter footer */
+.navbar-footer {
+    position: relative;
+    height: 70px;
+    width: auto;
+    background-color: #C3DDD8;
+    margin-top: -4px;
+}
+/* navbar links */
+.navbar-footer ul{
+    display: flex;
+    position: absolute;
+    top: 30px;  
+}
+
+.navbar-footer li{
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar-footer ul a{
+    position: relative;
+    left: 25%;  
+    font-size: 16px;
+    font-family: 'Julius Sans One', sans-serif;    
+    text-transform: uppercase;
+    text-decoration: none;  
+    color: black;
+    padding:0 5px; 
+}
+
+/* Follow us*/
+.navbar-footer p{
+    position: relative;
+    left: 165%;
+    font-family: 'Julius Sans One', sans-serif; 
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 5px;
+}
+/* ungeordnete List mit links und img zu social media */
+.navbar-footer ol{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 25px;
+    left: 60%;
+    margin-left: 20px;
+}
+
+.navbar-footer a{
+    position: relative;
+    left: 920%;
+    padding: 0 5px;
+    margin:0 5px;
+}
+
+.navbar-footer img{
+    position: relative;
+    bottom: 5px;
+}
+
+/* Hover */
+.navbar-footer a:hover { font-weight:bold; }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1440px) {
+    .navbar-footer ol{
+        top: 25px;
+        left: 60%;
+    } 
+    .navbar-footer a{
+        left: 520%;
+    }
+    .navbar-footer p{
+        left: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-footer ul a{  
+        left: 15%;  
+        padding: 0;
+    }
+
+    /* Follow us & Icons */
+    .navbar-footer ol{
+        left: 55%;
+    }
+    .navbar-footer a{
+        left: 560%;
+    }
+    .navbar-footer img{  
+        bottom: 2px;
+        height: 25px;
+        width: 25px;
+    }
+    .navbar-footer p{
+        left: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-footer ul a{  
+        left: 5%;  
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    /* Follow us & Icons */
+    .navbar-footer ol{
+        left: 45%;
+    }
+    .navbar-footer a{
+        left: 850%;
+        padding: 0;
+    }
+    .navbar-footer img{  
+        top: 2px;
+        height: 25px;
+        width: 25px;
+    }
+    .navbar-footer p{
+        margin-top: 8px;
+        left: 130%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .navbar-footer ul a{  
+        font-size: 14px;
+        left: 10%;  
+        padding-right: 5px;
+    }
+    /* Follow us & Icons */
+    .navbar-footer ol{
+        left: 45%;
+    }
+    .navbar-footer a{
+        left: 500%;
+        padding: 0;
+    }
+    .navbar-footer img{  
+        top: 2px;
+        height: 25px;
+        width: 25px;
+    }
+    .navbar-footer p{
+        margin-top: 8px;
+        left: 80%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .navbar-footer ul a{  
+        font-size: 12px;
+        left: 10%;  
+        padding-right: 5px;
+    }
+    /* Follow us & Icons */
+    .navbar-footer ol{
+        left: 45%;
+    }
+    .navbar-footer a{
+        left: 380%;
+        padding: 0;
+    }
+    .navbar-footer img{  
+        top: 2px;
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-footer p{
+        font-size: 12px;
+        margin-top: 8px;
+        left: 60%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .navbar-footer {
+        position: relative;
+        height: 70px;
+        width: auto;
+        background-color: #C3DDD8;
+    }
+
+    .navbar-footer ul a{  
+        font-size: 12px;
+        left: 10%;  
+        padding-right: 2px;
+    }
+    /* Follow us & Icons */
+    .navbar-footer ol{
+        left: 45%;
+    }
+    .navbar-footer a{
+        left: 190%;
+        padding: 0;
+    }
+    .navbar-footer img{  
+        top: 2px;
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-footer p{
+        font-size: 12px;
+        margin-top: 8px;
+        left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    
+    .navbar-footer {
+        position: relative;
+        height: 50px;   
+    }
+    .navbar-footer ul a{  
+        font-size: 12px;
+        position: relative;
+        top: -15px;
+        left: 0%;  
+    }
+    /* Follow us & Icons */
+
+    .navbar-footer a{
+        left: 190%;
+        padding: 0;
+    }
+    .navbar-footer img{  
+        top: -10px;
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-footer p{
+       display: none;
+    }
+}

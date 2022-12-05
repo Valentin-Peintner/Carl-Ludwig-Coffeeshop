@@ -1,0 +1,173 @@
+/* Überschrift */
+.head-i{
+    font-family: 'Archivo narrow',sans-serif;
+    font-size:18px;
+    margin-left: 2.5vw;
+}
+
+/* Box und Inhalt */
+.container{
+    border: 1px solid grey;
+    margin: 10px 50px;
+}
+
+.content{
+    padding: 25px 10px;   
+}
+
+.content h3{
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 24px;
+    margin: 0px 10px;  
+}
+
+.content p{
+    font-family: 'Archivo narrow',sans-serif;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.content p a{
+    text-decoration: none;
+    color: black;
+}
+
+.content p a:hover{
+    text-decoration: underline;
+}
+
+/* button */
+.btn-impressum {
+    border: 1px solid #456772;
+    border-radius: 5px;
+    background-color: #456772;
+    padding: 10px;
+    margin: 10vh 48vw;
+}
+
+.btn-impressum a{
+    font-family:'Archivo narrow',sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1440px){
+
+    .head-i{
+        margin-left: 3.5vw;
+    }
+    .btn-impressum {
+        margin: 10vh 46.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .head-i{
+        margin-left: 4vw;
+    }
+    .btn-impressum {
+        margin: 10vh 45vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .head-i{
+        margin-left: 4.7vw;
+    }
+    .btn-impressum {
+        margin: 10vh 44.5vw;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .head-i{
+        font-size: 14px;
+        margin-left: 6.5vw;       
+    }
+    .content h3{
+        font-size: 22px;
+    }
+    
+    .content p{ 
+        font-size: 18px;
+    }
+    .btn-impressum {    
+        margin: 10vh 43.5vw  
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .head-i{
+        font-size: 12px;
+        margin-left: 8.5vw;      
+    }
+    .content h3{     
+        font-size: 20px;       
+    }
+    
+    .content p{       
+        font-size: 16px;      
+    }
+    .btn-impressum {    
+        margin: 10vh 42.5vw  
+    }
+    .btn-impressum a{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+  
+    .head-i{
+        font-size: 10px;
+        margin-left: 10.5vw;           
+    }
+    .content {
+        padding: 25px 5px;
+      }
+    .content h3{   
+        font-size: 16px;     
+    }
+    .content p{ 
+        font-size: 14px;
+    }
+    .btn-impressum {    
+        margin: 10vh 42vw  
+    }
+    .btn-impressum a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .head-i{
+        font-size: 10px;
+        margin-left: 15.5vw;    
+    }
+    .content {
+        padding: 25px 0px;
+      }
+    .content h3{       
+        font-size: 14px;    
+    }
+    .content p{
+        font-size: 12px;   
+        padding: 0 -1vw;   
+    }
+    .btn-impressum {    
+        margin: 10vh 40vw  
+    }
+    .btn-impressum a{
+        font-size: 16px;
+    }
+}
